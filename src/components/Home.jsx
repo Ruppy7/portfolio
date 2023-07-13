@@ -14,7 +14,7 @@ const Home = () => {
             {" "}
             Hi, I am Rupesh{" "}
           </h2>
-          <p className=" text-justify text-xl md:text-2xl">
+          <p className=" text-justify text-lg md:text-2xl">
             {" "}
             A web developer currently finishing up my Computer Science degree as
             a final-year student at SRMIST. I love learning and using new
