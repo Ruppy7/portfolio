@@ -2,6 +2,7 @@ import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import { SiLeetcode } from "react-icons/si";
 
 const Socials = () => {
   const links = [
@@ -43,6 +44,16 @@ const Socials = () => {
       href: "https://flowcv.com/resume/imbqa55c1f",
       style: "rounded-br-md",
     },
+    {
+      id: 5,
+      child: (
+        <>
+          Leetcode <SiLeetcode size={25} />
+        </>
+      ),
+      href: "https://leetcode.com/Ruppy77/",
+      style: "rounded-br-md",
+    }
   ];
 
   return (

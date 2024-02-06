@@ -30,10 +30,10 @@ const Navbar = () => {
   ];
 
   return (
-    <div className=" flex justify-between items-center w-full h-20 px-4 text-white fixed bg-gradient-to-t from-gray-800">
+    <div className=" flex justify-between items-center w-full h-20 px-4 text-white fixed bg-gradient-to-t">
       <div>
         <h1 className=" cursor-pointer text-sky-400 text-xl md:text-2xl font-normal ml-2"> 
-          <Link to="Home" smooth duration={500}> Portfolio </Link>
+          <Link to="Home" smooth duration={500}> Rupesh </Link>
         </h1>
       </div>
 
@@ -52,7 +52,7 @@ const Navbar = () => {
         { nav ? <FaTimes size={25}/> : <FaBars size={25}/>}
       </div>
     {nav && (
-        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-gray-900 to-blue-900">
+        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-t">
         {links.map(({ id, link }) => (
             <li
               key={id}
