@@ -10,8 +10,8 @@ const Contact = () => {
             </div>
             <div className=' flex justify-center items-center'>
                 <form method='POST' action="https://getform.io/f/dcec5d43-a01c-4d2f-90dc-7c0a2a56255e" className=' flex flex-col w-full md:w-1/2'>
-                    <input type="text" name="name" placeholder='Enter your name' className=' p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'  />
-                    <input type="email" name="email" placeholder='Enter your email' className=' my-2 md:my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'  />
+                    <input required type="text" name="name" placeholder='Enter your name' className=' p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'  />
+                    <input required type="email" name="email" placeholder='Enter your email' className=' my-2 md:my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'  />
                     <textarea name="message" placeholder='Enter your message' rows="10" className=' p-2 bg-transparent border-2 rounded-md text-white focus:outline-none' ></textarea>
                     <button className=' text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300'> Connect with me!</button>
                 </form>
